@@ -43,6 +43,11 @@ body {
   color: #ff0099;
 }
 
+.link-name{
+    color: #ff0099;
+    text-decoration: none;
+}
+
 .menu-toggle {
   display: none;
   background: none;
