@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/img/pnglogominimo.png" type="image/x-icon">
+  <title>Marce Entrenamientos - Entrenadora Personal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <picture>
+        <img src="assets/img/pngminimo.png" alt="Logo marce entrenamientos" class="logo">
+    </picture>
+    <nav class="nav-links">
+      <a href="#inicio">Inicio</a>
+      <a href="#rutinas">Rutinas</a>
+      <a href="#planes">Planes</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <button id="menu-toggle" class="menu-toggle">☰</button>
+  </header>
+
+  <section id="inicio" class="hero">
+    <div class="hero-content">
+      <h1>Transformá tu cuerpo y tu mente</h1>
+      <p>Entrenamientos personalizados, rutinas adaptadas a tus objetivos y acompañamiento nutricional profesional.</p>
+      <button class="btn" id="btnRutinas">Ver Rutinas</button>
+    </div>
+  </section>
+
+  <section id="rutinas" class="section">
+    <h2>Rutinas Destacadas</h2>
+    <div class="rutinas-grid">
+      <div class="card">
+        <img src="img/fullbody.jpg" alt="Rutina Full Body">
+        <h3>Full Body Power</h3>
+        <p>Rutina completa para trabajar todo el cuerpo en 45 minutos.</p>
+        <button class="btn comprar-btn" data-plan="Full Body Power">Ver Plan</button>
+      </div>
+      <div class="card">
+        <img src="img/gluteos.jpg" alt="Rutina Glúteos">
+        <h3>Booty Killer</h3>
+        <p>Enfocada en piernas y glúteos, con bandas y peso corporal.</p>
+        <button class="btn comprar-btn" data-plan="Booty Killer">Ver Plan</button>
+      </div>
+      <div class="card">
+        <img src="img/hiit.jpg" alt="Rutina HIIT">
+        <h3>HIIT Explosivo</h3>
+        <p>Alta intensidad para quemar grasa y ganar resistencia.</p>
+        <button class="btn comprar-btn" data-plan="HIIT Explosivo">Ver Plan</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="planes" class="section">
+    <h2>Planes y Programas</h2>
+    <div class="planes-grid">
+      <div class="plan-card">
+        <h3>Plan Semanal</h3>
+        <p>Incluye 3 rutinas + guía nutricional básica</p>
+        <span class="price">$10.000</span>
+        <button class="btn comprar-btn" data-plan="Plan Semanal">Comprar</button>
+      </div>
+      <div class="plan-card destacado">
+        <h3>Plan Mensual</h3>
+        <p>Rutinas personalizadas + plan nutricional profesional</p>
+        <span class="price">$30.000</span>
+        <button class="btn comprar-btn" data-plan="Plan Mensual">Comprar</button>
+      </div>
+      <div class="plan-card">
+        <h3>Asesoría 1 a 1</h3>
+        <p>Videollamada + planificación adaptada a tu nivel</p>
+        <span class="price">$20.000</span>
+        <button class="btn comprar-btn" data-plan="Asesoría 1 a 1">Reservar</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="section contacto">
+    <h2>Contactame</h2>
+    <form id="formContacto">
+      <input type="text" placeholder="Tu nombre" required>
+      <input type="email" placeholder="Tu email" required>
+      <textarea placeholder="Tu mensaje"></textarea>
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 FitVibes | Entrenadora Personal</p>
+    <div class="redes">
+      <a href="#">Instagram</a> | <a href="#">WhatsApp</a> | <a href="#">TikTok</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
