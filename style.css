@@ -186,7 +186,9 @@ footer {
     right: 0;
     width: 100%;
   }
-
+  .logo {
+    width: 80px;
+  }
   .nav-links.active {
     display: flex;
   }
